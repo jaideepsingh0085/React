@@ -1,0 +1,17 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Namaste React by Akshay Saini",
+  "license": "ISC",
+  "author": "Jaideep Singh",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "browserslist" : [
+    "last 2 chrome versions"
+  ]
+}
