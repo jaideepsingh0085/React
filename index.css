@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border:  1px solid red;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}   
+.logo-img {
+    height: 80px;  
+}
+.nav-items {
+    display: flex;
+    
+}
+.nav-items > li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+.res-card {
+    width: 140px;
+    border: 1px solid blue;
+    margin: 5px;
+}
+.res-card-container{
+    display: flex;
+}
+.res-img {
+    width: 100%;
+    padding: 5px;
+}
