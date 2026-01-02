@@ -1,12 +1,16 @@
-const ShimmerUI = () => {
-    return <div className="shimmer-box">
-        <div className="shim-card">Loading</div>
-        <div className="shim-card"></div>
-        <div className="shim-card"></div>
-        <div className="shim-card"></div>
-        <div className="shim-card"></div>
-       
+const Shimmer = () => {
+  return (
+    <div className="shimmer-container">
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
+      <div className="shimmer-card"></div>
     </div>
-}
+  );
+};
 
-export default ShimmerUI;
+export default Shimmer;
