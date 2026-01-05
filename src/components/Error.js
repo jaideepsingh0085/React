@@ -1,5 +1,5 @@
 
-import { useRouteError } from "react-router";
+import { useRouteError } from "react-router"; 
 const Error = () => {
   const err = useRouteError();
   console.log(err);

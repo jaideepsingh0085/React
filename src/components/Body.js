@@ -1,7 +1,7 @@
 import RestaurantCart from "./RestaurantCart";
 // import resList from "../utils/mockData";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
@@ -16,7 +16,7 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://namastedev.com/api/v1/listRestaurants"
+      "https://corsproxy.io/https://namastedev.com/api/v1/listRestaurants"
     );
     const json = await data.json();
     console.log(json)
@@ -78,7 +78,7 @@ const Body = () => {
         {filteredRes.map((restaurant) => (
           <Link
             key={restaurant.info.id}
-            to={"/restaurant/" + restaurant.info.id}
+            to={"/restaurants/" + restaurant?.info?.id}
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <RestaurantCart resData={restaurant} />

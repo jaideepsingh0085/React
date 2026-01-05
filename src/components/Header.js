@@ -1,6 +1,6 @@
 import { LOGO_URL } from "../utils/constants";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 const Header = () => {
   // State to hold the button name (Login/Logout)
   const [btnName, setBtnName] = useState("Login");
