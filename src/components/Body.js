@@ -3,6 +3,7 @@ import RestaurantCart from "./RestaurantCart";
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import Shimmer from "./Shimmer";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   //local state variable
@@ -31,6 +32,12 @@ const Body = () => {
       );
     }, 1000);
   };
+
+  const onlineStatus = useOnlineStatus();
+
+  if (onlineStatus === false) {
+    return <h2>Seems like you are offline, Please check your internet connection!!</h2>
+  }
 
   if (ListOfRes.length === 0) {
     return <Shimmer />;

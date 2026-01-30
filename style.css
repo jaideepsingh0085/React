@@ -12,6 +12,8 @@
   display: flex;
   padding-right: 40px;
   list-style-type: none;
+  align-items: center;
+
 }
 .nav-item > ul > li {
   padding: 10px;

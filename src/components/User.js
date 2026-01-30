@@ -1,11 +1,13 @@
-const User = () => {
+import { useState } from "react"
+
+const User = (props) => {
+
+
   return (
     <div className="user-cart">
       <div>About</div>
-      <h1>Name: Jaideep</h1>
-      <h2>Email: 123@gmail.com</h2>
-
-
+    
+      
     </div>
   )
 }
