@@ -1,0 +1,28 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Namaste React by Akshay Saini",
+  "license": "ISC",
+  "author": "Jaideep Singh",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.7",
+    "@babel/preset-react": "^7.27.1",
+    "@parcel/core": "^2.15.4",
+    "@parcel/transformer-js": "^2.15.4",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 chrome versions"
+  ],
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^7.11.0"
+  }
+}
