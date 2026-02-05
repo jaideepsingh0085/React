@@ -29,8 +29,9 @@ const Header = () => {
             <Link to="/grocery">Grocery</Link>
           </li>
           <li>
-            <Link to="/cart"> Cart</Link>
+            <Link to="/cart">Cart</Link>
             </li>
+          
           <button
             className="login-btn"
             onClick={() => {
