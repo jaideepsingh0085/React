@@ -8,7 +8,8 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import Error from "./components/Error";
 import Cart from "./components/Cart";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
-import Grocery from "./components/Grocery"
+import Grocery from "./components/Grocery";
+
 
 const AppLayout = () => {
   return (
@@ -48,6 +49,7 @@ const appRouter = createBrowserRouter([
         path : "/grocery",
         element : <Grocery/>
       },
+      
     ],
     errorElement: <Error />,
   },
